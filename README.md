@@ -1,1 +1,1 @@
-# sfc_spirits
+SFCスピリッツ2020最終課題
