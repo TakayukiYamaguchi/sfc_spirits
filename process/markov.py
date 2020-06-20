@@ -3,8 +3,8 @@ import json,os
 
 from markov_test import test
 
-text_file = "12_komazaki.txt"
-json_file = "12_komazaki_markov.json"
+text_file = "yanasawa.txt"
+json_file = "yanasawa_markov.json"
 
 def tokenize(text):
     t = Tokenizer()
