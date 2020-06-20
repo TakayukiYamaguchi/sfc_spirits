@@ -1,5 +1,5 @@
-import watanabe_bot as x
-import sfc_watanabe_bot as y
+import chiba_bot as x
+import sfc_chiba_bot as y
 
 phase = 0
 limit = 3
@@ -12,10 +12,10 @@ def dialogue(w):
         print('phase' + str(phase))
         word1 = x.load_w2v(w)
         sentence1 = x.make_sentence(word1)
-        print('watanabe:' + sentence1)
+        print('chiba:' + sentence1)
         word2 = y.tokenize(sentence1)
         sentence2 = y.make_sentence(word2)
-        print('sutudent' + sentence2)
+        print('student' + sentence2)
         next_word_base = y.tokenize(sentence2)
         if not phase >= limit:
             dialogue(next_word_base)
