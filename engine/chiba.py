@@ -15,7 +15,7 @@ def dialogue(w):
         print('chiba:' + sentence1)
         word2 = y.tokenize(sentence1)
         sentence2 = y.make_sentence(word2)
-        print('student' + sentence2)
+        print('student:' + sentence2)
         next_word_base = y.tokenize(sentence2)
         if not phase >= limit:
             dialogue(next_word_base)
