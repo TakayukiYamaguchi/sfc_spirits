@@ -1,7 +1,7 @@
 from janome.tokenizer import Tokenizer
 import os
 
-text_file = '02_watanabe.txt'
+text_file = 'chiba.txt'
 
 
 def tokenize(text):
@@ -34,7 +34,7 @@ def main():
         print('error!',e)
         exit(0)
 
-    wakati_file = 'src/02_watanabe_wakati.txt'
+    wakati_file = 'src/chiba_wakati.txt'
     with open(wakati_file, 'w', encoding='utf-8') as f:
         f.write(' '.join(words))
 
